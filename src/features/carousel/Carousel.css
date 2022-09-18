@@ -1,0 +1,97 @@
+body {
+  background: #fff;
+}
+.App {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: #E4992A;
+}
+
+.card {
+  border: 1px solid #fff;
+  background: #fff;
+  
+  overflow: hidden;
+  height: 210px;
+  color: black;
+  cursor: pointer;
+}
+
+.card-top h1 {
+  font-size: 0.8rem;
+  margin: 10px;
+}
+
+.card-top > img {
+  border-radius: 8px;
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  background: black;
+}
+
+.card-bottom {
+  margin: 4px 7px;
+}
+
+.card-bottom h3 {
+  font-size: 0.6rem;
+}
+
+.category {
+  position: relative;
+}
+.category::before {
+  content: '';
+  background: #E4992A;
+  position: absolute;
+  top: calc(100% + 3px);
+  left: 0;
+  right: 0;
+  height: 2px;
+}
+
+/* TODO: Menu Button */
+
+.menu-button {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter-container button {
+  font-size: 0.6rem;
+  margin-right: 2rem;
+  min-width: 4rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: white;
+  color: #E4992A;
+  border-radius: 1rem;
+  border: 2px solid #E4992A;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.op {
+  border: none;
+}
+
+button.active {
+  background: #E4992A;
+  color: white;
+}
