@@ -2,7 +2,7 @@
 
 
 ## View App
-<img src="https://raw.githubusercontent.com/EmanuelJorge3MA/Carousel-ft-ReactJS/master/src/features/carousel/img/carousel.png" align="center" height="600" >
+<img src="https://raw.githubusercontent.com/EmanuelJorge3MA/Carousel-ft-ReactJS/master/src/features/carousel/img/carousel.png" align="center"  >
 
 # Getting Started with Create React App
 
